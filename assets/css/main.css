@@ -7,6 +7,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+  /* Diseño del nav */
 img {
   vertical-align: middle;
 }
@@ -30,6 +31,7 @@ a:hover {
 	display:flex;
 }
 
+  /* Diseño menu */
 .menu{
 	background.color: white;
 	position:fixed;
@@ -52,3 +54,37 @@ a:hover {
 	height: 70px;
 }
 
+  /* Diseño Home*/
+
+#home{
+	height: 600px;
+	margin-top: 70px;
+
+	background-image: url(../images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color: whitesmoke;
+}
+
+.text-home{
+	font-size: 2.4em;
+}
+
+.btn-home{
+  background:#2Ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}

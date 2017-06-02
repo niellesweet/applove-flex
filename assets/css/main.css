@@ -6,3 +6,23 @@ body {
   /* Enlaza la tipografia Open Sans */
   font-family: 'Open Sans', sans-serif;
 }
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.link{
+  display: inline-block;
+  font-weight: 700px;
+  padding: 21px;
+}
+

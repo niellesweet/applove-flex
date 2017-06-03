@@ -108,3 +108,26 @@ a:hover {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
+/* Ejercicio Evaluado */
+#work{
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 70px;
+}
+#work.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+
+/*Diseño Footer*/
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 7px;
+}
